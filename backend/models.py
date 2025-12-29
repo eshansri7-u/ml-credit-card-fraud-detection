@@ -1,3 +1,10 @@
+"""
+models.py
+
+Used to train the fraud detection model.
+Run once to generate fraud_pipeline.pkl.
+Not used at inference time.
+"""
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
